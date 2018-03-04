@@ -1,0 +1,31 @@
+.page-wrapper {
+    margin: 15px;
+}
+
+.sidebar-wrapper {
+    position: absolute fixed;
+    width: 250px;
+    border: 1px solid black;
+}
+
+.sidebar {
+    margin: 35px;
+    margin-top: 55px;
+}
+
+.sidebar .logo{
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+
+.sidebar .name {
+
+}
+
+.nav-links a {
+    display: block;
+}
+
+.main-content-wrapper {
+    
+}
