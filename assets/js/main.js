@@ -30,7 +30,7 @@ $("#contact-form").submit(function(e) {
     alert("Please complete all feilds");
   } else {
     $.ajax({
-      url: "https://formspree.io/cshaner04@gmail.com",
+      url: "https://formspree.io/cshaner@gmail.com",
       method: "POST",
       data: $(this).serialize(),
       dataType: "json"
