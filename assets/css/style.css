@@ -23,8 +23,11 @@
 }
 
 .sidebar .logo {
-  font-size: 100px;
+  font-size: 60px;
+  font-weight: bold;
+  letter-spacing: -4px;
   margin-bottom: 10px;
+  font-family: 'Tangerine', cursive;
 }
 
 .sidebar .name {
@@ -56,6 +59,19 @@ a:link {
   text-decoration: none;
 }
 
+.portfolio-bg-img1 {
+  width: 300px;
+  height: 200px;
+  position: absolute;
+  background-image: url(../images/flower1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  z-index: -100;
+  margin-top: 0px;
+  margin-left: -25px;
+}
+
 .main-content-wrapper {
   width: 100%;
   height: auto;
@@ -63,17 +79,30 @@ a:link {
 
 /*  about me ----- */
 
-.about-bg-img {
-  width: 500px;
-  height: 800px;
+.about-bg-img1 {
+  width: 300px;
+  height: 200px;
   position: absolute;
-  background-image: url(../images/design-hand.jpeg);
+  background-image: url(../images/flower2.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-  opacity: 0.3;
+  opacity: 0.6;
   z-index: -100;
-  margin-top: 200px;
-  margin-left: -100px;
+  margin-top: 500px;
+  margin-left: 1000px;
+}
+
+.about-bg-img2 {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  background-image: url(../images/corner-flower1.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  z-index: -100;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .about-content-wrapper {
