@@ -3,6 +3,11 @@
   font-family: "PT Sans", sans-serif;
 }
 
+.main-content-wrapper {
+  width: 100%;
+  height: auto;
+}
+
 .add-flex {
   display: flex;
 }
@@ -22,21 +27,26 @@
   margin-top: 40px;
 }
 
-.sidebar .logo {
-  font-size: 60px;
-  font-weight: bold;
-  letter-spacing: -4px;
-  margin-bottom: 10px;
-  font-family: 'Tangerine', cursive;
+.logo {
+  height: 140px;
+  background-image: url(../images/lm-logo.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: -20px;
+  margin-left: -20px;
+  margin-bottom: 20px;
 }
 
 .sidebar .name {
-  font-size: 12px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.2px;
   color: rgb(106, 106, 107);
 }
 
+.nav-links {
+  margin-bottom: 40px;
+}
 .nav-links a {
   display: block;
   font-weight: bold;
@@ -59,6 +69,16 @@ a:link {
   text-decoration: none;
 }
 
+.social-links {
+  justify-content: space-between;
+}
+
+i {
+  color:rgb(106, 106, 107);
+  font-size: 20px;
+  margin-right: 8px;
+}
+
 .portfolio-bg-img1 {
   width: 300px;
   height: 200px;
@@ -70,11 +90,6 @@ a:link {
   z-index: -100;
   margin-top: 0px;
   margin-left: -25px;
-}
-
-.main-content-wrapper {
-  width: 100%;
-  height: auto;
 }
 
 /*  about me ----- */
@@ -101,7 +116,7 @@ a:link {
   background-repeat: no-repeat;
   opacity: 0.6;
   z-index: -100;
-  margin-top: 20px;
+  margin-top: 500px;
   margin-left: 20px;
 }
 
