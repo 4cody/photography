@@ -3,6 +3,10 @@
   font-family: "PT Sans", sans-serif;
 }
 
+body {
+  background-color: rgb(250, 207, 213);
+}
+
 .main-content-wrapper {
   width: 100%;
   height: auto;
@@ -20,6 +24,7 @@
 .sidebar-wrapper {
   position: absolute fixed;
   width: 250px;
+  min-width: 250px;
 }
 
 .sidebar {
@@ -219,6 +224,7 @@ label {
   -ms-flex: 20%;
   flex: 20%;
   max-width: 20%;
+  min-width: 200px;
   padding: 0 4px;
 }
 
@@ -318,6 +324,12 @@ label {
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px) {
+  .modal-content {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
   .modal-content {
     width: 100%;
   }
